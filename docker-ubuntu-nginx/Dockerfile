@@ -10,9 +10,6 @@ FROM ubuntu
 # File Author / Maintaner
 MAINTAINER Tommy Crestanello
 
-# Install Nginx inside a Linux Ubuntu procedure
-# RUN echo "deb http://archive.ubuntu.com/ubuntu/ raring main universe" >> /etc/apt/sources.list
-
 # Update the repository of all installation packages
 RUN apt-get update
 
