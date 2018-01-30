@@ -23,3 +23,16 @@ If during the container creation choose the operation number (2.) it's important
 to launch from bash the following command:
 
   service nginx start
+
+or use directly from bash prompt the following command:
+
+  exec nginx -g "daemon off;"
+
+
+TECHNICAL NOTE: Inside the dockerfil I commented the following line:
+
+  # COPY html /usr/share/nginx/html
+
+If you already have a static application to deploy de-commented the line.
+
+Have a lot of fun!
