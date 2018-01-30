@@ -6,11 +6,11 @@ How To use the code inside this folder:
 
 1. Launch the docker command for building the image:
 
-    docker build -t <images-name> .
+    docker build -t "choose-images-name" .
 
 2. Launch the docker command for container's creation:
 
-    docker run --name <containers-name> -p 80:80 -i -t  <images-name>
+    docker run --name "choose-containers-name" -p 80:80 -i -t  "choose-images-name"
 
 On the Dockerfile are describe all the instruction that permit to install nginx on Ubuntu container.
 
